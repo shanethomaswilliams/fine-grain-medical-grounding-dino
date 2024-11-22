@@ -114,5 +114,8 @@ use_ema = False
 ema_decay = 0.9997
 ema_epoch = 0
 use_detached_boxes_dec_out = False
-use_coco_eval = True
+use_coco_eval = False
+
+label_list = ["boneanomaly", "bonelesion", "foreignbody", "fracture",  "metal", "periostealreaction", "pronatorsign" "softtissue", "text"]
+
 dn_scalar = 100

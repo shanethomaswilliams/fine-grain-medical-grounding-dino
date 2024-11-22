@@ -1,0 +1,4 @@
+# ninja log v5
+3	12982	1732084113777925602	/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/models/GroundingDINO/ops/build/temp.linux-x86_64-3.7/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/models/GroundingDINO/ops/src/cpu/ms_deform_attn_cpu.o	76b9dadd77feea19
+4	31730	1732084132530321536	/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/models/GroundingDINO/ops/build/temp.linux-x86_64-3.7/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/models/GroundingDINO/ops/src/cuda/ms_deform_attn_cuda.o	6013559d277520ef
+3	33053	1732084133851051026	/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/models/GroundingDINO/ops/build/temp.linux-x86_64-3.7/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/models/GroundingDINO/ops/src/vision.o	eaa880e10e03b359

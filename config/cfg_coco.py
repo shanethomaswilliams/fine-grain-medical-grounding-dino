@@ -111,4 +111,6 @@ match_unstable_error = True
 use_detached_boxes_dec_out = False
 dn_scalar = 100
 
-use_coco_eval = True
+use_coco_eval = False
+
+label_list = ["boneanomaly", "bonelesion", "foreignbody", "fracture",  "metal", "periostealreaction", "pronatorsign" "softtissue", "text"]

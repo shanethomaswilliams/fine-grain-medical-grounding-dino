@@ -14,11 +14,11 @@ srun -p ${PARTITION} \
     --ntasks-per-node=${GPUS_PER_NODE} \
     --cpus-per-task=${CPUS_PER_TASK} \
     --mem=32G \
-    --time=24:00:00 \
+    --time=11:00:00 \
     --kill-on-bad-exit=1 \
     python -u main.py \
     --output_dir ${OUTPUT_DIR} \
     -c ${CFG} \
     --datasets ${DATASETS} \
-    --pretrain_model_path /cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/dino_weights/groundingdino_swint_ogc.pth \
+    --pretrain_model_path /cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/vanilla-weights/dino_model/groundingdino_swint_ogc.pth \
     --options text_encoder_type=/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/bert_weights

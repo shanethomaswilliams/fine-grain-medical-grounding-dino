@@ -74,7 +74,7 @@ class ODVGDataset(VisionDataset):
             ori_classes = [str(obj["label"]) for obj in instances]
             pos_labels = set(ori_classes)
             # neg bbox labels 
-            neg_labels = self.label_index.difference(pos_labels)
+            neg_labels = list(self.label_index.difference(pos_labels))
              
             vg_labels = list(pos_labels)
             num_to_add = min(len(neg_labels), self.max_labels-len(pos_labels))

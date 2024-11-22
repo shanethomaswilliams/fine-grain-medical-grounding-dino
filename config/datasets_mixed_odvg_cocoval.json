@@ -1,0 +1,18 @@
+{
+  "train": [
+    {
+      "root": "/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/data/coco2017valimgs",
+      "anno": "/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/data/coco2017valanno/instances_val2017.jsonl",
+      "label_map": "/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/config/coco2017_label_map.json",
+      "dataset_mode": "odvg"
+    }
+  ],
+  "val": [
+    {
+      "root": "/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/data/coco2017valimgs",
+      "anno": "/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/data/coco2017valanno/instances_val2017.json",
+      "label_map": null,
+      "dataset_mode": "coco"
+    }
+  ]
+}

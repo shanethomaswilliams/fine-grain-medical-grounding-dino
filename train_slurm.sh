@@ -1,3 +1,4 @@
+#!/bin/sh
 PARTITION=$1
 GPUS=$2
 GPUS_PER_NODE=$(($2<8?$2:8))
@@ -17,5 +18,5 @@ srun -p ${PARTITION} \
     python -u main.py --output_dir ${OUTPUT_DIR} \
         -c ${CFG} \
         --datasets ${DATASETS}  \
-        --pretrain_model_path /path/to/groundingdino_swint_ogc.pth \
-        --options text_encoder_type=/path/to/bert-base-uncased
+        --pretrain_model_path /cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/dino_weights/groundingdino_swint_ogc.pth \
+        --options text_encoder_type=/cluster/tufts/cs152l3dclass/mprete01/Medical-Grounding-DINO/bert_weights

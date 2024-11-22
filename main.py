@@ -171,6 +171,7 @@ def main(args):
                                   weight_decay=args.weight_decay)
 
     logger.debug("build dataset ... ...")
+    print(dataset_meta["train"])
     if not args.eval:
         num_of_dataset_train = len(dataset_meta["train"])
         if num_of_dataset_train == 1:
